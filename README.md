@@ -1,1 +1,8 @@
 # table
+CREATE TABLE osoby (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    datum DATE NOT NULL,
+    jmeno VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    mesto VARCHAR(100) NOT NULL
+);
